@@ -1,0 +1,29 @@
+.moonware-body {
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(223, 255, 255);
+    height: 100vh;
+}
+
+body {
+    color:rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.link-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h3 {
+    background-color: rgb(12, 5, 137);
+    color: rgb(214, 214, 214);
+    width: 250px;
+    padding: 10px;
+    border-radius: 12px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: inline-block
+}

@@ -1,0 +1,34 @@
+.flights-map {
+    display: flex;
+    flex-direction: column;
+}
+
+.map-container {
+    display: inline-block;
+    width: 100%;
+}
+
+.link-container-map {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(12, 5, 137);
+    color: rgb(214, 214, 214);
+    align-items: center;
+}
+
+.link-container-map h2 {
+    color: white;
+    flex-grow: 3;
+}
+
+.link-container-map .to-list-button {
+    flex-grow: 1;
+    justify-content: right;
+}
+
+.link-container-map h5 {
+    color: white;
+    text-align: right;
+    justify-content: right;
+    padding-right: 10px;
+}
